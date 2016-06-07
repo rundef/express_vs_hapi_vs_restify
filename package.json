@@ -1,0 +1,23 @@
+{
+  "name": "express_vs_hapi_vs_restify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rundef/express_vs_hapi_vs_restify.git"
+  },
+  "author": "rundef",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rundef/express_vs_hapi_vs_restify/issues"
+  },
+  "homepage": "https://github.com/rundef/express_vs_hapi_vs_restify#readme",
+  "dependencies": {
+    "api-benchmark": "^0.4.2",
+    "restify": "^4.1.0"
+  }
+}
