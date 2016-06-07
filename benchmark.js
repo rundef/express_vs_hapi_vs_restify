@@ -22,7 +22,7 @@ var routes = {
 
 var options = {
   minSamples: 1000,
-  maxConcurrentRequests: 40,
+  maxConcurrentRequests: 10,
   runMode: 'parallel'
 };
 
