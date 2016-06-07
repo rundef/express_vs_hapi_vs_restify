@@ -1,6 +1,6 @@
-# Node.js framework showdown: express vs hapi vs restify
+## Node.js framework showdown: express vs hapi vs restify
 
-## Community
+### Community
 
   - **express**: 6 millions downloads in the last month, 25k github stars, 78 open issues
 
@@ -8,7 +8,7 @@
 
   - **restify**: 158k downloads in the last month, 5k github stars, 104 open issues
 
-## Framework goals
+### Framework goals
 
   - **express**: to provide small, robust tooling for HTTP servers (supports templating and rendering)
 
@@ -16,9 +16,9 @@
 
   - **restify**: to give you the tools to build REST web services
 
-## Testability
+### Testability
 
-## Performance
+### Performance
 
   Benchmarks were executed on a ?-core ? GHZ machine with 16 GB RAM.
 
@@ -38,7 +38,7 @@
 
     - **restify**: x requests/s
 
-## Pros & Cons
+### Pros & Cons
 
 | *Framework* | *Pros* | *Cons* |
 ------------ | ------------- | ------------- |
