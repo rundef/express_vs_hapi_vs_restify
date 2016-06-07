@@ -4,7 +4,7 @@
 
   - **express**: 6 millions downloads in the last month, 25k github stars, 78 open issues
 
-  - **hapi**: 188 millions downloads in the last month, 6k github stars, 29 open issues
+  - **hapi**: 188k downloads in the last month, 6k github stars, 29 open issues
 
   - **restify**: 158k downloads in the last month, 5k github stars, 104 open issues
 
@@ -17,6 +17,12 @@
   - **restify**: to give you the tools to build REST web services
 
 ### Testability
+
+  - **express**: needs an external module, such as [supertest](https://www.npmjs.com/package/supertest)
+
+  - **hapi**: [the shot plugin](https://github.com/hapijs/shot) makes it super easy to test hapi applications
+
+  - **restify**: comes with [clients](http://restify.com/#client-api) to test api endpoints
 
 ### Performance
 
