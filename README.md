@@ -43,5 +43,7 @@
 | *Framework* | *Pros* | *Cons* |
 ------------ | ------------- | ------------- |
 | **express** | big community, lots of resources | lot of manual tedious tasks (error handling, 404 handling, validation, etc..) |
-| **hapi** | backed by big companies | hapi-specific plugins |
-| **hapi** | better error handling and testability | |
+| **hapi** | backed by big companies | |
+| | [extensive and powerful plugin system](http://hapijs.com/plugins) | but the plugins are specific to hapi |
+| **restify** | specifically designed to build REST APIs (lighter than express) | |
+| | small learning curve (esp. if you know express) | |
