@@ -1,5 +1,7 @@
 ## Node.js framework showdown: express vs hapi vs restify
 
+[Read the full article here](http://rundef.com/express-vs-hapi-vs-restify)
+
 ### Community
 
   - **express**: 6 millions downloads in the last month, 25k github stars, 78 open issues
@@ -26,26 +28,20 @@
 
 ### Performance
 
-  Benchmarks were executed on a ?-core ? GHZ machine with 16 GB RAM.
+  Benchmarks were executed on a 4-core 2.7 GHZ machine with 16 GB RAM.
 
-  - Benchmarks using ApacheBench (*sh benchmark.sh*)
+  - Benchmarks using ApacheBench (*sh ab.sh*)
 
-    - **express**: x requests/s
+    - **express**: 4700 requests/s
 
-    - **hapi**: x requests/s
+    - **hapi**: 2200 requests/s
 
-    - **restify**: x requests/s
-
-  - Benchmarks using api-benchmark (*node benchmark.js*)
-
-    - **express**: x requests/s
-
-    - **hapi**: x requests/s
-
-    - **restify**: x requests/s
+    - **restify**: 4800 requests/s
 
 ### Pros & Cons
 
 | *Framework* | *Pros* | *Cons* |
 ------------ | ------------- | ------------- |
-| **express** | ? | ? |
+| **express** | big community, lots of resources | lot of manual tedious tasks (error handling, 404 handling, validation, etc..) |
+| **hapi** | backed by big companies | hapi-specific plugins |
+| **hapi** | better error handling and testability | |
